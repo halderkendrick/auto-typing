@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #0d1117;
+    font-family: Consolas, "Courier New", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #c9d1d9;
+}
+
+pre {
+    font-size: 20px;
+    white-space: pre-wrap;
+}
+
+/* Syntax colors */
+.include { color: #79c0ff; }
+.keyword { color: #ff7b72; }
+.func    { color: #d2a8ff; }
+.string  { color: #a5d6ff; }
+.number  { color: #f2cc60; }
+.symbol  { color: #c9d1d9; }
+
+/* Control box */
+.control {
+    position: fixed;
+    bottom: 20px;
+    background: rgba(255,255,255,0.08);
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+label {
+    margin-right: 6px;
+}
+
+input {
+    width: 50px;
+    text-align: center;
+}
